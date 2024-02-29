@@ -2,15 +2,15 @@
 //    числами. Определите количество простых чисел в этом
 //    массиве.
 
-int[] CreateArray(int min, int max, int size) //int[] CreateArray(int up, int down, int size)
+int[] CreateArray(int min, int max, int size) 
 {
-    Random rnd = new Random(); //Random rnd = new Random();
-    int[] array = new int[size]; //int[] array = new int[size];
-    for (int i = 0; i < size; i++) //for (int i = 0; i < size; i++)
+    Random rnd = new Random(); 
+    int[] array = new int[size]; 
+    for (int i = 0; i < size; i++) 
     {
-        array[i] = rnd.Next(min, max); //array[i] = rnd.Next(down, up);
+        array[i] = rnd.Next(min, max); 
     }
-    return array; //return array;
+    return array; 
 }
 bool SearchSimpleNum(int num)
 {
